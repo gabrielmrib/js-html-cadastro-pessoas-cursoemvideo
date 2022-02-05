@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de pessoas</h1>
+    </header>
+    <section>
+        <div>
+            <p>Nome:<input type="text" id="nome"></p>
+            <p>Data de nascimento<input type="date" id="nascimento"></p>
+            <p>Telefone:<input type="tel" id="telefone"></p>
+           
+            <p><input type="button" value="Cadastrar" onclick="cadastrar()"></p>
+        </div>
+        <hr>
+        <div>
+            <h2>listade cadastrados</h2>
+            <p><select name="cadastrados" id="lista" size="5">
+                <option>Usuarios cadastradosa baixo:</option>
+            </select>
+            <input type="button" value="atualizar" onclick="atualizar()"></p>
+
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
